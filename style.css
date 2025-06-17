@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: white;
+  color: black;
+
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between;*/
+
+  padding: 10px;
+
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+#form-habits {
+  display: flex;
+  padding: 250px 48px 48px;
+  width: fit-content;
+}
+
+.habits {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.habit {
+  width: 62px;
+  height: 62px;
+
+  font-size: 32;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.days {
+  display: flex;
+  gap: 48px;
+  margin-left: 32px;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.day div {
+  margin-bottom: 8;
+
+  font-family: 'Roboto Mono';
+  font-size: 12px;
+  line-height: 125%;
+
+  text-align: center;
+
+  color: #191919;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 40px;
+  height: 40px;
+
+  border: 2px solid rgb(131, 131, 134);
+  border-radius: 4px;
+
+  background: #cbc6c6;
+}
+
+input:checked {
+  border: 2px solid rgb(72, 72, 117);
+  border-radius: 4px;
+
+  background: #4f7dc6;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  border-color: blue;
+  display: flex;
+  gap: 10px;
+  font-family: 'Inter';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 125%;
+}
